@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/vendors/easings.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -147,23 +148,42 @@
 
 
     <div id="fullpage">
-        <div class="section" id="s1">
-            <div class="main_img_w">
-                <img src="../laneige/assets/img/img_banner_01_new.png" alt="banner_image">
-            </div><!-- // video_w  -->
-            <div class="s1_w">
-                <div class="s1_in">
-                    <div class="s1_main"><span>워터뱅크 블루 히알루로닉</span>클렌징 젤·오일</div>
-                    <div class="s1_sub">라네즈가 제안하는 말끔 촉촉 완벽 클렌징 스텝</div>
+        <div class="section slideshow-container" id="s1">
+            <div class="mySlideDiv fade active">
+                <div class="main_img_w">
+                    <img src="assets/img/img_banner_01_new.png" alt="banner_image">
                 </div>
-            </div>  <!-- // s1_w  -->   
-            <div class="s1_sns">
-                <ul>
-                    <li><a href="#">블로그</a></li>
-                    <li><a href="#">인스타그램</a></li>
-                    <li><a href="#">유투브</a></li>
-                    <li><a href="#">페이스북</a></li>
-                </ul>
+                <div class="s1_w">
+                    <div class="s1_in">
+                        <div class="s1_main"><span>워터뱅크 블루 히알루로닉</span>클렌징 젤·오일</div>
+                        <div class="s1_sub">라네즈가 제안하는 말끔 촉촉 완벽 클렌징 스텝</div>
+                    </div>
+                </div>    
+            </div>
+            <div class="mySlideDiv fade">
+                <div class="main_img_w">
+                    <img src="assets/img/img_banner_06_new.png" alt="banner_image">
+                </div>
+                <div class="s1_w">
+                    <div class="s1_in">
+                        <div class="s1_main"><span>Laneige X Artist Novo</span>Neo Cushion_Matte</div>
+                        <div class="s1_sub">아티스트 Novo와의 콜라보레이션으로<br>행복과 희망의 가치를 담은 네오 컬렉션을 만나보세요!</div>
+                    </div>
+                </div>    
+            </div>
+            <div class="mySlideDiv fade">
+                <div class="main_img_w">
+                    <img src="../laneige/assets/img/img_banner_05_new.png" alt="banner_image">
+                </div>
+                <div class="s1_w">
+                    <div class="s1_in">
+                        <div class="s1_main"><span>비스포크 네오,</span>UP TO 150 SHADES</div>
+                        <div class="s1_sub">내 피부톤에 딱 맞는 오직 나만을 위한<br>
+                            비스포크 네오를 만들어 드립니다.
+                            <p class="only-desktop">#비스포크네오 #프레시네오 #갓네오 #찰떡쿠션 #찰떡파데</p>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </div>
 
@@ -212,36 +232,112 @@
         <div class="section" id="s3">
             <div class="s3_w">
                 <div class="s3_title">Best Seller</div>
-                <div class="s3_main">
-                    Water Sleeping<br>Mask EX
-                </div>
-                <div class="s3_sub_w">
-                    <div class="s3_sub">                        
-                        <div class="s3_item_cont">
-                            <p class="s3_item_title">워터 슬리핑 마스크 EX</p>
-                            <p class="s3_item_sub">프로바이오틱스 콤플렉스가 함유되어<br>
-                                푹 잔 듯 맑고 생기 있는<br>
-                                피부로 가꿔주는 수분 마스크
-                            </p>
-                        </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="prod_list">
+                          <div class="s3_main">
+                              Water Sleeping<br>Mask EX
+                          </div>
+                          <div class="s3_sub_w">
+                              <div class="s3_sub">                        
+                                  <div class="s3_item_cont">
+                                      <p class="s3_item_title">워터 슬리핑 마스크 EX</p>
+                                      <p class="s3_item_sub">프로바이오틱스 콤플렉스가 함유되어<br>
+                                          푹 잔 듯 맑고 생기 있는<br>
+                                          피부로 가꿔주는 수분 마스크
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="s3_sub">
+                                  <div class="s3_item_cont type2">
+                                      <span>“</span>수분감 충만한 슬리핑팩! 밤에 듬뿍 바르고 자고 일어나면<br>
+                                      아침에 화장이 매우 잘 먹는다<br>
+                                      @heat********
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="s3_btn_w">
+                              <a href="#" class="s3_btn"><span>MORE VIEW</span></a>
+                          </div>
+                          <div class="s3_product">
+                              <div class="s3_product_img">
+                                  <img src="assets/img/img_s3_water_sleeping_mask.jpeg" alt="water_sleeping_mask">
+                              </div>
+                          </div>            
+                        </div><!--//.prod_list-->
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="prod_list">
+                            <div class="s3_main">
+                                Neo Cushion<br>MATTE
+                            </div>
+                            <div class="s3_sub_w">
+                                <div class="s3_sub">                        
+                                    <div class="s3_item_cont">
+                                        <p class="s3_item_title">네오 쿠션 매트</p>
+                                        <p class="s3_item_sub">
+                                            한 번의 터치만으로 타고난 듯<br>
+                                            24시간 완벽하게 커버해주는 매트 쿠션
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s3_sub">
+                                    <div class="s3_item_cont type2">
+                                        <span>“</span>마스크때문에 매트한 쿠션 샀는데<br>
+                                        지금까지 썼던 쿠션 중에 제일 마무리감이 좋았어요.<br>
+                                        @euns******
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s3_btn_w">
+                                <a href="#" class="s3_btn"><span>MORE VIEW</span></a>
+                            </div>
+                            <div class="s3_product">
+                                <div class="s3_product_img">
+                                    <img src="assets/img/img_s3_neo_cushion.png" alt="neo_cushion">
+                                </div>
+                            </div>            
+                          </div><!--//.prod_list-->
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="prod_list">
+                            <div class="s3_main">
+                                Radian-C<br>Cream
+                            </div>
+                            <div class="s3_sub_w">
+                                <div class="s3_sub">                        
+                                    <div class="s3_item_cont">
+                                        <p class="s3_item_title">레디언-C 크림</p>
+                                        <p class="s3_item_sub">초강력 #톤업부스터의 힘으로<br>
+                                            피부 코어부터 맑아지는 비타민 크림<br>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s3_sub">
+                                    <div class="s3_item_cont type2">
+                                        <span>“</span>벌써 3통째에요! 기미가 고민인 요즘 사용하면<br>
+                                        피부가 밝아지고 확실히 잡티가 옅어지네요~<br>
+                                        @enji****
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="s3_btn_w">
+                                <a href="#" class="s3_btn"><span>MORE VIEW</span></a>
+                            </div>
+                            <div class="s3_product">
+                                <div class="s3_product_img">
+                                    <img src="assets/img/img_s4_radian_02.png" alt="radian-c_cream">
+                                </div>
+                            </div>            
+                          </div><!--//.prod_list-->
+                      </div>
                     </div>
-                    <div class="s3_sub">
-                        <div class="s3_item_cont type2">
-                            <span>“</span>수분감 충만한 슬리핑팩! 밤에 듬뿍 바르고 자고 일어나면<br>
-                            아침에 화장이 매우 잘 먹는다<br>
-                            @heat********
-                        </div>
-                    </div>
-                </div>
-                <div class="s3_btn_w">
-                    <a href="#" class="s3_btn"><span>MORE VIEW</span></a>
-                </div>
-                <div class="s3_product">
-                    <div class="s3_product_img">
-                        <img src="assets/img/img_s3_water_sleeping_mask.jpeg" alt="water_sleeping_mask">
-                    </div>
-                </div>
-            </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>    
+            </div><!--//s3_w-->
         </div>
 
         <div class="section" id="s4">
@@ -442,5 +538,7 @@
     <div class="arrow pc">
         <a href="#" class="prevA">TOP</a>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
