@@ -661,6 +661,7 @@ a.s3_btn {
 .s4_item_cont > div {
     display: none;
     transition: 0.4s;
+    word-break: keep-all;
 }
 .s4_item_cont > div:first-child {
     display: block;
