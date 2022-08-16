@@ -706,7 +706,15 @@ a.s3_btn {
 .s4_item_cont > div > ul li {
     width: 24%;;
     text-align: center;
+    cursor: pointer;
+    position: relative;
 }
+
+.s4_item_cont > div > ul li:hover img {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
 .s4_item_cont_title {
     color: #222;
     font-size: 22px;
@@ -891,6 +899,8 @@ a.s3_btn {
 }
 
 .s6_sub_img {
+    cursor: pointer;
+    overflow: hidden;
     width: 380px;
     height: 506px;
 }
@@ -899,6 +909,12 @@ a.s3_btn {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transform: scale(1.0); /* 이미지 확대 배율 */
+    transition: transform .8s; /* 시간 설정 */
+}
+.s6_sub_img:hover img {
+    transform: scale(1.1); /* 이미지 확대 배율 */
+    transition: transform .8s; /* 시간 설정 */
 }
 
 .s6_item_cont_title {
