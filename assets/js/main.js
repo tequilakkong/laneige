@@ -10,7 +10,7 @@ new fullpage('#fullpage', {
     easing: 'easeInOutCubic',
     anchors: ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th'],
     menu: '.gnb_list',
-    normalScrollElements: '#s2',
+    // normalScrollElements: '#s2',
 });
 
 
@@ -25,11 +25,6 @@ $('.btn_total').click(function(){
 //메뉴 팝업 닫기버튼
 $('.btn_totalClose').click(function(){
     $('.total_menu_z').removeClass('active');
-});
-
-var myScroll = new IScroll('.total_menu', {
-    mouseWheel: true,
-    //scrollbars: true
 });
 
 $('.totalMitem').click(function(){
@@ -166,3 +161,5 @@ function nextSlide() {
 	$(".mySlideDiv").eq(newIndex).show();
 	
 }
+
+
