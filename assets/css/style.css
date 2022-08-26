@@ -147,9 +147,9 @@ a.totalMitem { font-size:2vw; font-weight:500; color:#fff; border-bottom:2px sol
 .total_item04 { right:0; }
 
 .totalSubItem_w { padding-top:60px;}
-ul.totalSubItem_list {}
 .totalSubItem_list > li { margin-bottom:15px;}
 a.totalSubItem { 
+    display: inline-block;
     font-size:1.1vw; 
     color:#909fa3; 
     font-weight:500;
@@ -275,7 +275,6 @@ a.btn_totalClose:after { transform:rotate(-45deg);}
 
 .s1_w span { 
     display:block; 
-    font-size: 2.8vw; 
 }
 .s1_sub { 
     font-size:1.2vw; 
@@ -462,7 +461,9 @@ a.btn_totalClose:after { transform:rotate(-45deg);}
     transition-duration: 3s;
 }
 
-
+#s3 .mobile_layout {
+    width: 28vw;
+}
 .s3_main { 
     font-size:4.5vw; 
     font-weight:700;   
